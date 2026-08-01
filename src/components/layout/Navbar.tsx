@@ -1,3 +1,5 @@
+import { Button } from "../../shared/components/ui/Button";
+
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur-md">
@@ -19,9 +21,9 @@ export default function Navbar() {
         </div>
 
         {/* CTA */}
-        <button className="rounded-xl bg-blue-600 px-5 py-2 font-medium text-white transition-all duration-200 hover:bg-blue-700">
+        <Button size="md">
           Get Started
-        </button>
+        </Button>
       </div>
     </header>
   );
